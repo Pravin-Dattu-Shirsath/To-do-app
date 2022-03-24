@@ -1,0 +1,161 @@
+body {
+  background: #1a1d2d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: white;
+  padding: 0 20px 100px;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1 {
+  margin-top: 80px;
+  color: white;
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(79, 98, 148);
+}
+.form {
+  max-width:35%;
+  margin: 0 auto;
+}
+
+.float{
+  float: left;
+
+}
+
+
+
+.line{ text-decoration:line-through;}
+input[type=date] , textarea,input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+ margin-top:5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ textarea {
+   font-size: 15px;
+   font-weight: 600;
+ }
+
+input[type=submit] {
+  width: 100%;
+  font-size: 25px;
+  font-weight:600;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #7517ce;
+}
+
+/* .border{
+ 
+  margin: auto;
+ 
+  padding: 10px;
+  background-color: #d0e0d1;
+  color: #121310;
+ 
+  
+  border-radius: 5px;
+} */
+.list-box{
+  box-sizing: border-box;
+  box-shadow: 5px 5px 8px grey;
+  width: 250px;
+  border: 2px solid rgb(136, 136, 46);
+  position: relative;
+  padding: 5px;
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+.list-box2{
+  box-sizing: border-box;
+  box-shadow: 5px 5px 8px grey;
+  width: 250px;
+  border: 2px solid rgb(185, 22, 22);
+  position: relative;
+  padding: 5px;
+  margin-left: 15px;
+  text-decoration: line-through;
+  margin-bottom: 20px;
+}
+
+.list-title{
+  font-size: medium;
+  margin-left: 3px;
+  font-weight: 500;
+}
+.fa-trash{
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+
+}
+.fa-trash:hover{
+  background-color: #ccc;
+  color: red;
+  border-radius: 50%;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
+.blue{
+  color: rgb(255, 238, 1);
+}
+.chekbox{
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  font-size: 30px;
+  position: absolute;
+  bottom: 60px;
+  right: 8px;
+  width: 25px;
+  height: 25px;
+
+}
+.chekdiv input:hover{
+ color: #4CAF50;
+
+}
+.mx{
+  margin:15px;
+}
+.fa-check{
+   font-size: 350%;
+  position:absolute;
+  top:30px;
+  left:60px;
+  background:white;
+  color:green;
+  padding:35px;
+  border-radius:50%;
+ box-shadow: 0px 0px 15px #48e704; 
+ 
+  
+  
+  
+}
+
